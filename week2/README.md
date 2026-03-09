@@ -24,6 +24,7 @@ Se configuraron pesos de $0.6$ y un sesgo de $-1.0$ para validar los cuatro esta
 ## 📈 Conclusiones Técnicas
 * **Sensibilidad de los Pesos:** Al aumentar los pesos, la neurona se vuelve más sensible a las entradas, permitiendo que valores bajos de $x$ activen la salida.
 * **Rol del Sesgo:** El sesgo actúa como un "umbral de exigencia". Un sesgo de $-1.0$ obliga a que la suma de las entradas multiplicadas por sus pesos supere la unidad para que la neurona responda positivamente. Sin el sesgo, la neurona se activaría con cualquier entrada mayor a cero.
+Dicho de otro modo se volvería "muy fácil de convencer". Incluso con entradas [0,0], el puntaje $z$ sería $0.5$, por lo que la salida sería 1. Un sesgo positivo alto hace que la neurona esté siempre "encendida", mientras que un sesgo negativo (como el que usamos de $-1.0$) la hace selectiva y exigente.
 
 ## 🚀 Cómo Ejecutar
 1. Clonar el repositorio.
