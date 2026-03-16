@@ -1,1 +1,50 @@
-🧠 Implementación de Backpropagation y Funciones de Activación - CADI Deep Learning🎯 Objetivo de la ActividadDemostrar la implementación técnica de una red neuronal multicapa desde sus fundamentos matemáticos utilizando únicamente NumPy. El enfoque principal reside en el algoritmo de backpropagation y el análisis comparativo del impacto de diferentes funciones de activación en el aprendizaje.🏗️ Arquitectura de la SoluciónSe ha desarrollado un modelo capaz de resolver el problema no lineal XOR, el cual requiere necesariamente una capa oculta.🛠️ Componentes Técnicos:Forward Pass: Implementación matricial para la propagación de señales a través de la red.Backpropagation: Cálculo manual de gradientes mediante la regla de la cadena para la actualización de pesos ($W$) y sesgos ($b$).Optimizador: Algoritmo de Gradiente Descendente con ajuste fino de hiperparámetros.Dataset: Tabla de verdad XOR (entradas no linealmente separables).🧪 Comparación de ResultadosSe evaluaron dos funciones de activación bajo condiciones de entrenamiento idénticas para medir su eficiencia:Sigmoide: Presentó una convergencia progresiva. Aunque efectiva, sufre de saturación de gradientes, lo que ralentiza la estabilización del error.ReLU (Rectified Linear Unit): Mostró una eficiencia superior con una convergencia acelerada, reduciendo el error casi instantáneamente.📊 Métricas de Evaluación FinalActivaciónLoss FinalAccuracy (Precisión)EstadoSigmoid~0.0150100.0%✅ ÉxitoReLU~0.0001100.0%✅ Éxito📈 Conclusiones TécnicasEficacia del Algoritmo: El descenso del error (MSE) desde 0.25 hasta valores cercanos a cero valida que el motor de backpropagation ajusta los parámetros de forma óptima.Superioridad de ReLU: En este escenario, ReLU demostró ser más robusta frente al estancamiento de gradientes, permitiendo que la red aprenda la lógica compleja del XOR en significativamente menos épocas.Precisión Total: Ambos modelos alcanzaron el 100% de precisión, logrando una clasificación perfecta de todas las combinaciones lógicas.🚀 Guía de EjecuciónPreparación: Asegúrate de tener el archivo notebook.ipynb en tu entorno local o repositorio.Entorno: Abrir el archivo en Google Colab.Ejecución: Seleccionar Entorno de ejecución > Ejecutar todas (Ctrl + F9).Resultados: La celda final generará automáticamente la tabla de métricas y la gráfica comparativa de pérdida que documenta este experimento.
+# 🧠 Implementación de Backpropagation y Funciones de Activación - CADI Deep Learning
+
+## 🎯 Objetivo de la Actividad
+Demostrar la implementación técnica de una **red neuronal multicapa** desde sus fundamentos matemáticos utilizando únicamente **NumPy**. El enfoque principal reside en el algoritmo de **backpropagation** y el análisis comparativo del impacto de diferentes funciones de activación en el aprendizaje.
+
+---
+
+## 🏗️ Arquitectura de la Solución
+Se ha desarrollado un modelo capaz de resolver el problema no lineal **XOR**, el cual requiere necesariamente una capa oculta para su resolución.
+
+### 🛠️ Componentes Técnicos:
+* **Forward Pass:** Implementación matricial para la propagación de señales a través de la red.
+* **Backpropagation:** Cálculo manual de gradientes mediante la **regla de la cadena** para la actualización de pesos ($W$) y sesgos ($b$).
+* **Optimizador:** Algoritmo de Gradiente Descendente con ajuste fino de hiperparámetros.
+* **Dataset:** Tabla de verdad XOR (entradas no linealmente separables).
+
+---
+
+## 🧪 Comparación de Resultados
+Se evaluaron dos funciones de activación bajo condiciones de entrenamiento idénticas para medir su eficiencia y velocidad de convergencia:
+
+1.  **Sigmoide:** Presentó una convergencia progresiva. Aunque efectiva, sufre de saturación de gradientes en los extremos, lo que requiere más iteraciones para estabilizar el error.
+2.  **ReLU (Rectified Linear Unit):** Mostró una eficiencia superior con una **convergencia acelerada**, logrando reducir el error drásticamente en las primeras épocas.
+
+### 📊 Métricas de Evaluación Final
+
+| Activación | Loss Final | Accuracy (Precisión) | Estado |
+| :--- | :--- | :--- | :--- |
+| **Sigmoid** | `~0.0150` | `100.0%` | ✅ Éxito |
+| **ReLU** | `~0.0001` | `100.0%` | ✅ Éxito |
+
+---
+
+## 📈 Conclusiones Técnicas
+
+* **Eficacia del Algoritmo:** El descenso de la curva de pérdida (MSE) desde **0.25** hasta valores cercanos a cero confirma que el motor de backpropagation está ajustando los parámetros correctamente.
+* **Superioridad de ReLU:** En este escenario, ReLU demostró ser más robusta frente al estancamiento de gradientes, permitiendo que la red aprenda la lógica XOR en menos tiempo de cómputo.
+* **Precisión Total:** Ambos modelos alcanzaron el **100% de precisión**, logrando una clasificación perfecta de todas las combinaciones lógicas de la tabla de verdad.
+
+---
+
+## 🚀 Guía de Ejecución
+
+1.  **Preparación:** Asegúrate de tener el archivo `notebook.ipynb` en la carpeta `week3/`.
+2.  **Entorno:** Abrir el archivo en **Google Colab**.
+3.  **Ejecución:** Seleccionar `Entorno de ejecución > Ejecutar todas` (`Ctrl + F9`).
+4.  **Resultados:** La última celda imprimirá automáticamente la tabla de resultados finales y mostrará la gráfica comparativa de convergencia.
+
+---
+*Este proyecto forma parte de la especialización en Machine Learning.*
