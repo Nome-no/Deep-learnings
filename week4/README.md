@@ -6,7 +6,7 @@
 ---
 
 ## 📋 Descripción del Proyecto
-Este proyecto consiste en el diseño, implementación y evaluación de una red neuronal densa aplicada al dataset **Diabetes** de OpenML. El objetivo central es realizar un análisis comparativo sobre cómo diferentes estrategias de **optimización** y la variación de la **tasa de aprendizaje (Learning Rate)** afectan la convergencia y precisión del modelo.
+Este proyecto consiste en el diseño, implementación y evaluación de una red neuronal profunda aplicada al dataset **Diabetes** de OpenML. El objetivo central es realizar un análisis comparativo sobre cómo diferentes estrategias de **optimización** y la variación de la **tasa de aprendizaje (Learning Rate)** afectan la convergencia y precisión del modelo.
 
 ## 🚀 Tecnologías Utilizadas
 * **Google Colab** (Entorno de ejecución)
