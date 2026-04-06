@@ -55,6 +55,4 @@ El notebook genera visualizaciones que permiten contrastar la evolución del *Lo
 3. Las gráficas comparativas se generarán automáticamente al final del entrenamiento.
 
 ---
-**Autor:** [Tu Nombre]  
-**Fecha:** Abril 2026  
-**Estatus:** ✅ Actividad Completada
+**Autor:** Fabian Buitrago  
