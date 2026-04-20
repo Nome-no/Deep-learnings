@@ -47,21 +47,9 @@ Los modelos se comparan mediante:
 
 ---
 
-## Estructura del repositorio
-
-```
-week6/
-├── Actividad6Semana6.ipynb   # Notebook principal (ejecutable con Run All)
-├── README.md                  # Este archivo
-├── learning_curves.png        # Gráfica 1 generada al ejecutar el notebook
-└── confusion_matrices.png     # Gráfica 2 generada al ejecutar el notebook
-```
-
----
-
 ## Cómo ejecutar
 
-1. Subir `Actividad6Semana6.ipynb` a [Google Colab](https://colab.research.google.com/).
+1. Subir `Actividad6Semana6.ipynb` a [Google Colab]
 2. Ir a **Runtime → Run all** (o `Ctrl+F9`).
 3. El dataset se descarga automáticamente desde OpenML en la primera ejecución.
 
