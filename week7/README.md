@@ -30,7 +30,7 @@ En todas las comparaciones se usó el **mismo kernel Sobel 3×3** para garantiza
 
 ## Cómo ejecutar
 
-1. Abrir [`Semana7_CNN_Convolucion.ipynb`](./Semana7_CNN_Convolucion.ipynb) en [Google Colab](https://colab.research.google.com/).
+1. Abrir [`Semana7Actividad7.ipynb) en [Google Colab](https://colab.research.google.com/).
 2. Ir a **Runtime → Run all** (o `Ctrl+F9`).
 3. No se requieren instalaciones adicionales — todas las librerías (`numpy`, `matplotlib`, `scikit-image`) están disponibles por defecto en Colab.
 
