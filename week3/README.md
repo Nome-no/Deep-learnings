@@ -31,20 +31,13 @@ Se evaluaron dos funciones de activación bajo condiciones de entrenamiento idé
 
 ---
 
-## 📈 Conclusiones Técnicas
+## 📈 Conclusiones 
 
 * **Eficacia del Algoritmo:** El descenso de la curva de pérdida (MSE) desde **0.25** hasta valores cercanos a cero confirma que el motor de backpropagation está ajustando los parámetros correctamente.
 * **Superioridad de ReLU:** En este escenario, ReLU demostró ser más robusta frente al estancamiento de gradientes, permitiendo que la red aprenda la lógica XOR en menos tiempo de cómputo.
 * **Precisión Total:** Ambos modelos alcanzaron el **100% de precisión**, logrando una clasificación perfecta de todas las combinaciones lógicas de la tabla de verdad.
 
----
 
-## 🚀 Guía de Ejecución
-
-1.  **Preparación:** Asegúrate de tener el archivo `notebook.ipynb` en la carpeta `week3/`.
-2.  **Entorno:** Abrir el archivo en **Google Colab**.
-3.  **Ejecución:** Seleccionar `Entorno de ejecución > Ejecutar todas` (`Ctrl + F9`).
-4.  **Resultados:** La última celda imprimirá automáticamente la tabla de resultados finales y mostrará la gráfica comparativa de convergencia.
 
 ---
 *Este proyecto forma parte de la especialización en Machine Learning.*
