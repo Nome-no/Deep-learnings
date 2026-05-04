@@ -35,12 +35,9 @@ Imagen B ──┘                                                              
 | Dense + Dropout(0.3) | 128 | 128 |
 | Dense (espacio latente) | 64 | **64** |
 
----
-
-## Criterios de rúbrica cubiertos
-
-### Implementación de Data Augmentation — *no aplica directamente*
-Este trabajo implementa en su lugar la **generación de pares de entrenamiento** (positivos y negativos) como técnica de aumento de datos para redes siamesas. Cada imagen original participa en múltiples pares, multiplicando el tamaño efectivo del dataset por el parámetro `n_pares_por_clase`.
+--
+### Implementación de Data Augmentation —
+Este trabajo implementa la **generación de pares de entrenamiento** (positivos y negativos) como técnica de aumento de datos para redes siamesas. Cada imagen original participa en múltiples pares, multiplicando el tamaño efectivo del dataset por el parámetro `n_pares_por_clase`.
 
 ### Evaluación de similitud entre pares
 La comparación entre pares de la misma persona y de personas distintas se documenta con:
