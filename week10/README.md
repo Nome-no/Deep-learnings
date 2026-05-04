@@ -91,7 +91,7 @@ No se utilizan librerías adicionales ni externas.
 
 ## Instrucciones de uso en Google Colab
 
-1. Subir el archivo `.ipynb` a Google Colab.
+1. Subir el archivo `Semana10_Actividad10.ipynb` a Google Colab.
 2. Ejecutar las celdas en orden secuencial (Ctrl+F9 o Entorno de ejecución → Ejecutar todo).
 3. El dataset Olivetti Faces se descarga automáticamente desde scikit-learn (~1 MB).
 4. No se requiere GPU para este notebook (tiempo estimado: 3–8 minutos en CPU).
