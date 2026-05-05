@@ -50,7 +50,7 @@ Mismo dataset de la Semana 11 — permite comparación directa entre modelos.
 
 ## Cómo ejecutar
 
-1. Abrir `Semana12_Atencion_Transformer.ipynb` en [Google Colab](https://colab.research.google.com/)
+1. Abrir `Semana12_Actividad12.ipynb` en [Google Colab](https://colab.research.google.com/)
 2. Activar GPU *(opcional)*: *Entorno de ejecución → Cambiar tipo de entorno → T4 GPU*
 3. **Ejecutar todo** (`Ctrl + F9`)
 4. Tiempo estimado: **5–8 minutos** en CPU
