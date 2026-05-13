@@ -79,12 +79,11 @@ Input (784)
 
 ## Instrucciones de ejecución
 
-1. Abrir el archivo `.ipynb` en [Google Colab](https://colab.research.google.com/)
+1. Abrir el archivo `Semana13_Actividad13.ipynb` en [Google Colab](https://colab.research.google.com/)
 2. Ejecutar las celdas en orden secuencial (`Ctrl+F9` para ejecutar todo)
 3. No se requiere GPU (el modelo es ligero con capas Dense)
 4. Tiempo estimado de entrenamiento: **2–5 minutos** en CPU
 
-## Criterios de rúbrica cubiertos
 
 | Criterio | Implementación |
 |---|---|
@@ -95,6 +94,3 @@ Input (784)
 | Documentación y organización | Código comentado línea a línea, celdas Markdown explicativas, estructura clara |
 
 ---
-
-**Actividad:** Semana 13 – CADI Deep Learning | Universidad de Cundinamarca  
-**Entorno:** Google Colab (Python 3.10, TensorFlow 2.x)
