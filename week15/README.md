@@ -1,10 +1,4 @@
 # Semana 15 - Data Journey, Acceso y Manipulacion de Datos, Monitoreo y Logging, y Model Serving con Weights & Biases
-
-**Curso:** Deep Learning - Conceptos Fundamentales  
-**Codigo:** 601539/DEEP LEARNING-CONCEPTOS/FU/CAD2202023205/EIAIPA2026  
-**Actividad:** Semana 15 - Actividad 15  
-**Cierre:** Domingo, 24 de mayo de 2026
-
 ---
 
 ## Descripcion
