@@ -67,13 +67,13 @@ RUIDO (100 dims)
 - `numpy` - Generacion de ruido, operaciones numericas
 - `matplotlib` - Visualizacion de imagenes y curvas de perdida
 
-> No se utilizaron librerias adicionales fuera de las anteriores.
+
 
 ---
 
 ## Como Ejecutar
 
-1. Subir el archivo `Semana14_GANs.ipynb` a [Google Colab](https://colab.research.google.com)
+1. Subir el archivo `Semana14_Actividad14.ipynb` a [Google Colab](https://colab.research.google.com)
 2. Seleccionar un entorno de ejecucion con GPU: `Entorno de ejecucion > Cambiar tipo de entorno de ejecucion > GPU`
 3. Ejecutar las celdas en orden con `Shift + Enter` o `Entorno de ejecucion > Ejecutar todo`
 
