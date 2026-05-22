@@ -108,15 +108,3 @@ wandb.init()  →  config: hiperparametros
 5. Al finalizar, el dashboard del experimento estara disponible en `https://wandb.ai/<usuario>/semana15-deep-learning-mnist`
 
 > **Sin cuenta W&B:** el codigo detecta automaticamente si no hay autenticacion y ejecuta en `mode='disabled'`, completando todas las secciones localmente sin registro remoto.
-
----
-
-## Correspondencia con la Rubrica
-
-| Criterio | Implementacion |
-|---|---|
-| **Investigacion y comprension de conceptos clave** | Secciones 2-3: Data Journey documentado etapa por etapa; acceso y manipulacion con visualizacion comparativa; conceptos de monitoreo y Model Serving explicados en celdas Markdown |
-| **Implementacion practica en Weights & Biases** | Secciones 5-6-9: wandb.init() con config completo, WandbCallback integrado al entrenamiento, artefacto del modelo versionado con wandb.Artifact() |
-| **Monitoreo y logging del modelo** | Secciones 6-7-8: metricas por epoca (loss, val_loss, accuracy, val_accuracy), histogramas de pesos, curvas de entrenamiento y matriz de confusion registradas en W&B con wandb.log() |
-| **Colaboracion en el trabajo en equipo** | Codigo organizado en secciones claras con responsabilidades separadas; comentado linea a linea para facilitar la revision entre miembros del equipo |
-| **Documentacion y presentacion del proyecto** | Notebook con celdas Markdown explicativas por seccion, tablas resumen, arquitectura en ASCII, README detallado con flujo del experimento y correspondencia con la rubrica |
