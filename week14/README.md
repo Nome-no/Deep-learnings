@@ -1,10 +1,5 @@
 # Semana 14 - Aplicacion de los Conceptos de GANs en Google Colab
 
-**Curso:** Deep Learning - Conceptos Fundamentales  
-**Codigo:** 601539/DEEP LEARNING-CONCEPTOS/FU/CAD2202023205/EIAIPA2026  
-**Actividad:** Semana 14 - Actividad 14  
-**Cierre:** Domingo, 24 de mayo de 2026
-
 ---
 
 ## Descripcion
